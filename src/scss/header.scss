@@ -1,0 +1,12 @@
+.header {
+    text-align: center;
+    padding: 1.2rem 0 0 0;
+    &__game-name {
+        font-size: 1.6rem;
+        font-weight: 700;
+        color: $dark-accent-color;
+    }
+    &__game-motto {
+        font-size: 1.2rem;
+    }   
+}

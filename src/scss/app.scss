@@ -1,0 +1,16 @@
+/* Core variables */
+@import 'base/vars';
+
+/* CSS Reset */
+@import 'base/reset';
+
+/* Fonts */
+@import 'base/fonts';
+
+/* Components */
+
+@import './main.scss';
+@import './header.scss';
+@import './nav.scss';
+@import './aside.scss';
+@import './footer.scss';

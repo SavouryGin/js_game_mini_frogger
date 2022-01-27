@@ -1,0 +1,43 @@
+.nav {
+    text-align: left;
+    font-size: 1.2rem;
+    padding: 4rem 0 0 1.6rem;
+    .accord {
+        display: inline-block;
+        max-width: 80%;
+    }
+    
+    .accord__radio {display: none;}
+    
+    .accord__page {
+        display: block;
+        cursor: pointer;
+        user-select: none;
+        color: $dark-accent-color;
+        font-weight: 600;
+        &:hover {
+            color: $light-accent-color;
+        }
+    }
+    
+    .accord__text{
+        display: none;
+        img {
+            display: block;
+            width: 70%;
+            margin: 1rem auto 1rem 0;
+        }
+        em {
+            color: $light-accent-color;
+        }
+        a {
+            color: $light-accent-color;
+            font-weight: 600;            
+        }
+        a:hover, a:visited {
+            color: $dark-accent-color;
+        }
+    }
+    
+    .accord__radio:checked+.accord__page+.accord__text {display: block;}
+}
